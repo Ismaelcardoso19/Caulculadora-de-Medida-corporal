@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Medida Corporal</title>
+</head>
+
+<body>
+
+    <div class="calculadora">
+        <h1>Calculadora de Medidas Corporais</h1>
+
+        <div class="infor-piscando">
+            por favor, ensira uma informação 👇 
+        </div>
+
+        <div class="Campo">
+            <label>Peso kg :</label>
+            <input type="number" id="peso" step="0.1">
+        </div>
+
+        <div class="Campo">
+            <label>Altura (cm):</label>
+            <input type="number" id="altura">
+        </div>
+
+        <div class="Campo">
+            <label>idade:</label>
+            <input type="number" id="Idade">
+        </div>
+        <div class="campo">
+            <label>Sexo:</label>
+            <select id="sexo">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+        </div>
+        <button onclick="calcular()">Calcular Medidas</button>
+
+        <div id="resultados" class="resultados" style="display: none;"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
