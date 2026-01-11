@@ -15,7 +15,7 @@ Uma calculadora web simples para calcular IMC, peso ideal e taxa metabólica bas
 
 - HTML5
 - CSS3 (animações e gradientes)
-- JavaScript (vanilla)
+- JavaScript
 
 ## 📱 Como usar
 
@@ -29,4 +29,4 @@ Uma calculadora web simples para calcular IMC, peso ideal e taxa metabólica bas
 
 ---
 
-💡 Meu primeiro projeto web completo!
+💡 Fico muito feliz por essa conquista:)
